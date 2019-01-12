@@ -59,13 +59,13 @@ li a {
 
 
 * {
-	box-sizing: border-box;
+	box-sizing: border-box; /*a try to fix the images to the correct format*/
 }
 
 .column {
-	float: left;
-	width: 50%;
-	padding: 5px;
+	float: left; /*makes the images in the blog posts section appear next to each other*/
+	width: 50%; /*makes the images in the blog posts section more seperate*/
+	padding: 0px;
 }
 
 /* Clearfix (clear floats) */
@@ -74,11 +74,12 @@ li a {
 	clear: both;
 	display: table;
 }
+/*somehow fixes the format of the blog post section to be more like the excersise template*/
 
 
 
 footer {
-	text-align: center;
+	text-align: center; /*aligns the footer to the middle of the page*/
 }
 
 hr {
