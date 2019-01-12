@@ -1,53 +1,90 @@
-#logo {
-	vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
+	.content {
+	width: 900px;
+	height: 900px;
+	margin: 0px auto;
+	}
+
+	#logo {
+		vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
+	}
+
+	div[id="imagetext"] h3 { /*places the text of the image next to the image*/
+		display: inline-block; /*changes the text next to the image to a inline-block element (now you only mark the text if you hover-mousclick)*/
+	}
+
+	ul {
+		list-style-type: none; /*removes the dots from the list objects*/
+		overflow: hidden; /*removes the overflow with the codefactory logo*/
+		background-color:  #653D3D; /*changes the background color of the ul*/
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		display: block; /*makes the navigation links to appear in a block-form*/
+		padding: 10px; /*adds space inbetween the navigation links*/
+		color: white; /*changes the color of the navigation links to white*/
+	}
+
+	li {
+		float: left; /*makes the list elements appear next to each other*/
+	}
+
+	li a {
+
+		display: block; /*makes the navigation links to appear in block-form*/
+		color: white; /*changes the font color to white*/
+		padding: 10px; /*makes the background color of the nav bar expand so it is appears "thicker"*/
+		text-decoration: none; /*removes the unterlines of the links*/
+
+	}
+
+	#topsection {
+		background-color: #EDEDED; /*changes background of the "topsection" to a greyish color*/
+	}
+
+	.maincontent {
+
+		text-align: center; /*puts the text of the herosection "this is my first website" to the middle of the site*/
+		font-size: 50px; /*makes the size of the font bigger*/
+	}
+
+	.latest p {
+
+		color: white; /*changes the font color to white*/
+		background-color: #978484; /*background color of the paragraph to white*/
+		padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
+	}
+
+.imagecontainer {
+    float:left;
+    display: block;
+    /*width: 500px;*/
+    /*padding:10px;*/
 }
 
-div[id="imagetext"]>h3 { /*places the text of the image next to the image*/
-	display: inline;
+
+
+.imagecontainer img {
+	width: 448px;
+	/*padding-right: 10px;*/
+	/*margin-right: 10px;*/
+	/*height: 50%;*/
 }
 
-ul {
-	list-style-type: none; /*removes the dots from the list objects*/
-	overflow: hidden; /*removes the overflow with the codefactory logo*/
-	background-color:  #653D3D; /*changes the background color of the ul*/
-	margin: 0;
-	padding: 0;
+/*.imagecontainer1 {
+	margin: 0px;
 }
 
-a {
-	/*display: block;*/ /*makes the navigation links to appear in a block-form*/
-	/*padding: 10px; adds space inbetween the navigation links*/
-	/*color: white;*/ /*changes the color of the navigation links to white*/
+.imagecontainer2 {
+	margin-right: 0px;
+}*/
+
+/*.clearFloat {
+    clear: both;
 }
 
-li {
-	float: left; /*makes the list elements appear next to each other*/
-}
 
-li a {
 
-	display: block; /*makes the navigation links to appear in block-form*/
-	color: white; /*changes the font color to white*/
-	padding: 10px; /*makes the background color of the nav bar expand so it is appears "thicker"*/
-	text-decoration: none; /*removes the unterlines of the links*/
-
-}
-
-#topsection {
-	background-color: #EDEDED; /*changes background of the "topsection" to a greyish color*/
-}
-
-.maincontent {
-
-	text-align: center; /*puts the text of the herosection "this is my first website" to the middle of the site*/
-	font-size: 50px; /*makes the size of the font bigger*/
-}
-
-.latest p {
-
-	color: white; /*changes the font color to white*/
-	background-color: #978484; /*background color of the paragraph to white*/
-	padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
-}
 
 
