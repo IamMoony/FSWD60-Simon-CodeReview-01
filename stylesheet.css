@@ -11,8 +11,8 @@
 }
 
 .logobottom {
-	vertical-align: middle;
-	width: 200px;
+	vertical-align: middle; /*place logo in middle*/
+	width: 200px; /*make it smaller*/
 }
 
 div[id="imagetext"] h4 { /*places the text of the image next to the image*/
@@ -60,15 +60,15 @@ li a {
 
 .maincontent h4 {
 
-	text-align: left;
-	background-color: lightgrey;
+	text-align: left; /*change the content with the h4 heading to be on the left side of the page*/
+	background-color: /*lightgrey; change the background-color of the heading*/
 }
 
 .maincontent p {
 
-	text-align: left;
-	font-size: 25px;
-	margin: 1px;
+	text-align: left; /*change the paragraphs in the maincontent section to be on the left side*/
+	font-size: 25px; /*change the fonz-size*/
+	margin: 1px; /*make the spacing for the form less*/
 }
 
 div[class="latest"]>p {
