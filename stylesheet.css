@@ -61,7 +61,7 @@ li a {
 .maincontent h4 {
 
 	text-align: left; /*change the content with the h4 heading to be on the left side of the page*/
-	background-color: /*lightgrey; change the background-color of the heading*/
+	background-color: lightgrey; /*change the background-color of the heading*/
 }
 
 .maincontent p {
