@@ -37,13 +37,13 @@ li a {
 	background-color: #EDEDED; /*changes background of the "topsection" to a greyish color*/
 }
 
-.herosection {
+.maincontent {
 
 	text-align: center; /*puts the text of the herosection "this is my first website" to the middle of the site*/
 	font-size: 50px; /*makes the size of the font bigger*/
 }
 
-.maincontent p {
+.latest p {
 
 	color: white; /*changes the font color to white*/
 	background-color: #978484; /*background color of the paragraph to white*/
