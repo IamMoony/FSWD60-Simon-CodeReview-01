@@ -62,10 +62,10 @@ li a {
 	box-sizing: border-box; /*a try to fix the images to the correct format*/
 }
 
-.column {
+.column{
 	float: left; /*makes the images in the blog posts section appear next to each other*/
 	width: 50%; /*makes the images in the blog posts section more seperate*/
-	padding: 0px;
+	padding: 0;
 }
 
 /* Clearfix (clear floats) */
@@ -73,6 +73,8 @@ li a {
 	content: "";
 	clear: both;
 	display: table;
+	padding: 0;
+	margin: 0;
 }
 /*somehow fixes the format of the blog post section to be more like the excersise template*/
 
