@@ -1,8 +1,7 @@
-/*	.content {
-		width: 100%;
-		height: 100%;
+	.content {
+		width: 900px;
 		margin: 0px auto;
-	}*/
+	}
 
 	#logo {
 		vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
@@ -49,22 +48,23 @@
 		font-size: 50px; /*makes the size of the font bigger*/
 	}
 
-	.latest p {
+	.latest>p {
 
 		color: white; /*changes the font color to white*/
 		background-color: #978484; /*background color of the paragraph to white*/
 		padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
 	}
 
-	.thickHR {
-		border: none;
-		height: 5px;
-		color: : #978484;
+
+	footer {
+		text-align: center;
 	}
 
-footer {
-	text-align: center;
-}
+	hr {
+
+		height: 8px;
+		background-color: #978484;
+	}
 	
 
 
