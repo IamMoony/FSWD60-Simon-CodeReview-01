@@ -2,9 +2,8 @@
 
 ul {
 	list-style-type: none; /*removes the dots from the list*/
-	overflow: hidden;/*removes the overflow with the codefactory logo*/
+	overflow: hidden; /*removes the overflow with the codefactory logo*/
 	background-color:  #653D3D; /*changes the background color of the ul*/
-	text-align: center;
 }
 
 a {
@@ -14,4 +13,8 @@ a {
 
 li {
 	float: left;
+}
+
+#top {
+	background-color: #EDEDED;
 }
