@@ -1,15 +1,14 @@
- @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 .content {
-	width: 900px;
-	margin: 0px auto;
+	width: 900px; /*changes the width of the whole page to 900 pixels*/
+	margin: 0px auto; /*centers the whole page*/
 }
 
 #logo {
 	vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
+	width: 350px; /*changes the width of the logo to 350 pixel to match the excersise template better*/
 }
 
-div[id="imagetext"] h3 { /*places the text of the image next to the image*/
+div[id="imagetext"] h4 { /*places the text of the image next to the image*/
 	display: inline-block; /*changes the text next to the image to a inline-block element (now you only mark the text if you hover-mousclick)*/
 }
 
@@ -17,8 +16,8 @@ ul {
 	list-style-type: none; /*removes the dots from the list objects*/
 	overflow: hidden; /*removes the overflow with the codefactory logo*/
 	background-color:  #653D3D; /*changes the background color of the ul*/
-	margin: 0;
-	padding: 0;
+	margin: 0; /*puts the navbar content to the origin of the website*/
+	padding: 0; /*puts the navbar content to the origin of the website*/
 }
 
 a {
@@ -37,6 +36,7 @@ li a {
 	color: white; /*changes the font color to white*/
 	padding: 10px; /*makes the background color of the nav bar expand so it is appears "thicker"*/
 	text-decoration: none; /*removes the unterlines of the links*/
+	font-weight: bold; /*makes the links in the menu bold*/
 
 }
 
@@ -51,7 +51,7 @@ li a {
 }
 
 .latest>p {
-
+	font-weight: bold; /*makes the "Latest Blog Posts" bold*/
 	color: white; /*changes the font color to white*/
 	background-color: #978484; /*background color of the paragraph to white*/
 	padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
@@ -65,7 +65,7 @@ li a {
 .column {
 	float: left;
 	width: 50%;
-	/*padding: 5px;*/
+	padding: 5px;
 }
 
 /* Clearfix (clear floats) */
@@ -83,12 +83,16 @@ footer {
 
 hr {
 
-	height: 8px;
-	background-color: #978484;
+	height: 8px; /*makes the line on the bottom of the page thicker*/
+	background-color: #978484; /*changes the color of the line*/
 }
 
 body {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif; /*changes the font-type*/
+}
+
+div[class=row] p { 
+	font-weight: bold; /*makes the descriptions of the pictures in the latest blog posts section bold to match the excersise template*/
 }
 
 
