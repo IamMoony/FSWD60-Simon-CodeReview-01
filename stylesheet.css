@@ -1,11 +1,18 @@
 .content {
-	width: 900px; /*changes the width of the whole page to 900 pixels*/
+	max-width: 900px; /*changes the width of the whole page to 900 pixels*/
 	margin: 0px auto; /*centers the whole page*/
+	width: 100%;
 }
 
-#logo {
+
+.logotop {
 	vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
 	width: 350px; /*changes the width of the logo to 350 pixel to match the excersise template better*/
+}
+
+.logobottom {
+	vertical-align: middle;
+	width: 200px;
 }
 
 div[id="imagetext"] h4 { /*places the text of the image next to the image*/
@@ -58,14 +65,23 @@ li a {
 }
 
 
-* {
-	box-sizing: border-box; /*a try to fix the images to the correct format*/
+/** {
+	box-sizing: border-box; a try to fix the images to the correct format (can be ignored)
+}*/
+
+.columnright{
+	float: left; /*makes the images in the blog posts section appear next to each other*/
+	width: 100%; /*when there is only a single column (e.g mobilephone) then the site keeps its full width*/
+
+
+
 }
 
-.column{
+.columnleft{
 	float: left; /*makes the images in the blog posts section appear next to each other*/
-	width: 50%; /*makes the images in the blog posts section more seperate*/
-	padding: 0;
+	width: 100%; /*when there is only a single column (e.g mobilephone) then the site keeps its full width*/
+
+
 }
 
 /* Clearfix (clear floats) */
@@ -74,7 +90,6 @@ li a {
 	clear: both;
 	display: table;
 	padding: 0;
-	margin: 0;
 }
 /*somehow fixes the format of the blog post section to be more like the excersise template*/
 
@@ -85,7 +100,7 @@ footer {
 }
 
 hr {
-
+	margin-top: 80px; /*Abstand vor der hr*/
 	height: 8px; /*makes the line on the bottom of the page thicker*/
 	background-color: #978484; /*changes the color of the line*/
 }
@@ -98,9 +113,33 @@ div[class=row] p {
 	font-weight: bold; /*makes the descriptions of the pictures in the latest blog posts section bold to match the excersise template*/
 }
 
+h3{
+	margin: 0px;
+	margin-bottom: 20px; /*adds space after the column text*/
+	width: 400px; /*defines the width of the columns text to be like the image*/
+	font-weight: 1500; /*makes the font thicker to match the template*/
+	color: #555; /*makes the color of the font lighter*/
+}
 
+div[class=row] img {
+width: 400px;
+height: 200px;
+	margin: 0px auto;
+}
 
+@media (min-width: 918px) { /*
+If the width of the body is over 918px, then these CSS classes apply (this makes the website responsive*/
+.columnright{
+	float: left; /*makes the images in the blog posts section appear next to each other*/
+	width: 400px; /*defines the width of the left column*/
+	margin-left: 50px; /*adds space in between the columns*/
+}
 
+.columnleft{
+	float: left; /*makes the images in the blog posts section appear next to each other*/
+	width: 400px; /*defines the width of the left column*/
+	margin-right: 50px; /*adds space inbetween the columns*/
+}
 
 
 
