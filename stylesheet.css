@@ -44,6 +44,7 @@ li a {
 	padding: 10px; /*makes the background color of the nav bar expand so it is appears "thicker"*/
 	text-decoration: none; /*removes the unterlines of the links*/
 	font-weight: bold; /*makes the links in the menu bold*/
+	text-transform: uppercase; /*makes the menu in uppercase letters*/
 
 }
 
@@ -57,16 +58,31 @@ li a {
 	font-size: 50px; /*makes the size of the font bigger*/
 }
 
-.latest>p {
+.maincontent h4 {
+
+	text-align: left;
+	background-color: lightgrey;
+}
+
+.maincontent p {
+
+	text-align: left;
+	font-size: 25px;
+	margin: 1px;
+}
+
+div[class="latest"]>p {
 	font-weight: bold; /*makes the "Latest Blog Posts" bold*/
+	text-transform: uppercase;
+	display: block;
 	color: white; /*changes the font color to white*/
 	background-color: #978484; /*background color of the paragraph to white*/
-	padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
+	padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker to match the exercise template"*/
 }
 
 
 /** {
-	box-sizing: border-box; a try to fix the images to the correct format (can be ignored)
+box-sizing: border-box; a try to fix the images to the correct format (can be ignored)
 }*/
 
 .columnright{
@@ -100,8 +116,8 @@ footer {
 }
 
 hr {
-	margin-top: 80px; /*Abstand vor der hr*/
-	height: 8px; /*makes the line on the bottom of the page thicker*/
+	margin-top: 80px; /*adds space before the hr(line)*/
+	height: 6px; /*makes the line on the bottom of the page thicker*/
 	background-color: #978484; /*changes the color of the line*/
 }
 
@@ -121,25 +137,25 @@ h3{
 	color: #555; /*makes the color of the font lighter*/
 }
 
-div[class=row] img {
-width: 400px;
-height: 200px;
+div[class=row] img { /*targets all the images in the div with the class row and makes them the same size*/
+	width: 400px;
+	height: 200px;
 	margin: 0px auto;
 }
 
 @media (min-width: 918px) { /*
-If the width of the body is over 918px, then these CSS classes apply (this makes the website responsive*/
-.columnright{
-	float: left; /*makes the images in the blog posts section appear next to each other*/
-	width: 400px; /*defines the width of the left column*/
-	margin-left: 50px; /*adds space in between the columns*/
-}
+	If the width of the body is over 918px, then these CSS classes apply (this makes the website responsive*/
+	.columnright{
+		float: left; /*makes the images in the blog posts section appear next to each other*/
+		width: 400px; /*defines the width of the left column*/
+		margin-left: 50px; /*adds space in between the columns*/
+	}
 
-.columnleft{
-	float: left; /*makes the images in the blog posts section appear next to each other*/
-	width: 400px; /*defines the width of the left column*/
-	margin-right: 50px; /*adds space inbetween the columns*/
-}
+	.columnleft{
+		float: left; /*makes the images in the blog posts section appear next to each other*/
+		width: 400px; /*defines the width of the left column*/
+		margin-right: 50px; /*adds space inbetween the columns*/
+	}
 
 
 
