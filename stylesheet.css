@@ -1,8 +1,8 @@
-	.content {
+/*	.content {
 		width: 100%;
 		height: 100%;
-		/*margin: 0px auto;*/
-	}
+		margin: 0px auto;
+	}*/
 
 	#logo {
 		vertical-align: middle; /*aligns the logo to the middle (is necessary for the logo-text to be able to align right next to the logo)*/
@@ -56,19 +56,17 @@
 		padding: 10px /*makes the background color of the paragraph expand so it is appears "thicker"*/
 	}
 
-	/* Three image containers (use 25% for four, and 50% for two, etc) */
-	.column {
-		float: left;
-		width: 50%;
-		/*padding: 5px;*/
+	.thickHR {
+		border: none;
+		height: 5px;
+		color: : #978484;
 	}
 
-	/* Clear floats after image containers */
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
+footer {
+	text-align: center;
+}
+	
+
 
 
 

@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>This is my first website</title>
+	<title>This is my first website</title>	
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  /*padding: 5px;*/
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css"> <!-- connecting the stylesheet.css to the document -->
+
 	<meta charset="utf-8">
 	<meta author="Simon Blaha"
 </head>
@@ -33,20 +52,25 @@
 			<p>Latest Blog Posts</p>
 			<div class="row">
 				<div class="column">
-					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Phone.png" alt="Snow">
+					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Phone.png" alt="Snow" width="600px" height="400px">
 				</div>
 				<div class="column">
-					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Taxify-Scooters.jpg" alt="Forest">
+					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Taxify-Scooters.jpg" alt="Forest" width="600px" height="400px">
 				</div>
 			</div>
 			<div class="row">
 				<div class="column">
-					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Devices.jpg" alt="Snow">
+					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Devices.jpg" alt="Snow" width="600px" height="400px">
 				</div>
 				<div class="column">
-					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Debit_card_ATM.jpg" alt="Forest">
+					<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\Debit_card_ATM.jpg" alt="Forest" width="600px" height="400px">
 				</div>
 			</div>
+			<hr class=thickHr>
+			<footer>
+				<img src="C:\Users\simon\Desktop\FSWD60-Simon-CodeReview-01\img\codefactory-vienna-logo.png" alt="CodeFactoryLogo">
+				<p>Simon Blaha - Codefactory 2018</p>
+			</footer>
 		</body>
 	</div>
 	</html>
