@@ -157,6 +157,12 @@ div[class=row] img { /*targets all the images in the div with the class row and 
 		margin-right: 50px; /*adds space inbetween the columns*/
 	}
 
+	a:hover {
+		background-color: lightgrey;
+	}
+
+
+
 
 
 
