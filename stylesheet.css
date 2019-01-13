@@ -16,7 +16,7 @@
 }
 
 div[id="imagetext"] h4 { /*places the text of the image next to the image*/
-	display: inline-block; /*changes the text next to the image to a inline-block element (now you only mark the text if you hover-mousclick)*/
+	/*display: inline-block;*/ /*changes the text next to the image to a inline-block element (now you only mark the text if you hover-mousclick)*/
 }
 
 ul {
@@ -87,7 +87,7 @@ box-sizing: border-box; a try to fix the images to the correct format (can be ig
 
 .columnright{
 	float: left; /*makes the images in the blog posts section appear next to each other*/
-	width: 100%; /*when there is only a single column (e.g mobilephone) then the site keeps its full width*/
+	width: 100%; /*when there is only a single column (e.g mobilephone) then the site keeps its full width because its trying to line the content up*/
 
 
 
@@ -158,7 +158,7 @@ div[class=row] img { /*targets all the images in the div with the class row and 
 	}
 
 	a:hover {
-		background-color: lightgrey;
+		background-color: lightgrey; adding hover with a grey background to the menu
 	}
 
 
